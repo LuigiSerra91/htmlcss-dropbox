@@ -47,7 +47,7 @@ img{
 
     }
 
-    .btn_header{
+    .btn_blue{
         padding: 7px;
         background-color: var(--drop-blue_btn);
         color: white;
@@ -71,19 +71,29 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: auto;
     
     
 }
 
 .col_4{
  width: 25%;
- padding-right: 50px;
+ min-height: 426px;
+
+ .btn_blue{
+   background-color: var(--drop-blue_btn);
+   padding: 5px;
+   vertical-align: middle;
+   color: white; 
+   
+ }
    
 }
 
 .col_5{
    
-    width: 35%
+    width: 45%
     
     
 }
@@ -91,4 +101,21 @@ img{
 h1{
     text-align: center;
     padding-bottom: 50px;
+    font-size: 60px;
+}
+
+.paragraf{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    line-height: 19px;
+}
+
+.little_paragraf{
+    padding-top: 25px;
+}
+
+.fa-arrow-down{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 150px;
 }
