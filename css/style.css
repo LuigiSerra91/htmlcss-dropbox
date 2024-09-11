@@ -7,3 +7,45 @@
 img{
     max-width: 100%;
 }
+
+
+/* header */
+
+.app_header{
+    height: 70px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left_menù{
+    display: flex;
+    align-items: center;
+
+    a{
+        padding-left: 25px;
+    }
+
+    .logo{
+        padding-left: 15px;
+    }
+}
+
+.right_menù{
+    display: flex;
+    align-items: center;
+    
+    a{
+        padding-right:25px ;
+
+    }
+
+    .btn_header{
+        padding: 7px;
+        background-color: blue;
+        color: white;
+        margin-right: 15px;
+    }
+    
+}
