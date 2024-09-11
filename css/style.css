@@ -8,12 +8,18 @@ img{
     max-width: 100%;
 }
 
+:root{
+    --drop-light_header:#FFFFFF;
+    --drop-blue_btn:#0061ff;
+    --drop-stc1_main:#b4d0e7;
+}
+
 
 /* header */
 
 .app_header{
     height: 70px;
-    background-color: azure;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
 
@@ -43,7 +49,7 @@ img{
 
     .btn_header{
         padding: 7px;
-        background-color: blue;
+        background-color: var(--drop-blue_btn);
         color: white;
         margin-right: 15px;
     }
