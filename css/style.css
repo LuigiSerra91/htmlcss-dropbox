@@ -70,9 +70,10 @@ img{
 }
 
 .container_sm{
-    padding-top: 50px;
-    width: 70%;
+    padding-top: 80px;
+    width: 80%;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 [class^="col"] {
@@ -83,8 +84,11 @@ img{
     width: calc(100% / 12 * 4);
 }
 
+.col_5{
+    width: calc(70% /12 * 4);
+}
 .col_12{
-    width: 100%;
+    width: 70%;
 }
 
 
@@ -109,7 +113,7 @@ img{
     margin-bottom: -65px;
     
      
-    
+
      
 }
 
@@ -117,6 +121,10 @@ h1{
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
+}
+
+h2{
+    font-size: 35px;
 }
 
 
@@ -132,14 +140,26 @@ h1{
 
 .section_business{
     display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+    .col_12{
+        border: 1px solid lightslategray;
+        margin top:20px;
+    }
 
     .row-col{
         line-height: 50px;
     }
 
-    .col_4{
+    .col_5{
        
         border: 1px solid lightslategray;
+        margin: 0 15px;
+       
+        
     }
 
     hr{
@@ -151,4 +171,12 @@ h1{
     text-align: center;
     border-bottom: 1px solid lightslategray;
     margin: 0 -16px;
+}
+
+.input_radio{
+    margin-top: 35px;
+}
+
+.checkbox{
+    padding-left: 190px;
 }
