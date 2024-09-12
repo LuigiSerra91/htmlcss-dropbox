@@ -141,5 +141,14 @@ h1{
        
         border: 1px solid lightslategray;
     }
+
+    hr{
+        margin-right: 350px;
+    }
 }
 
+.icon_user{
+    text-align: center;
+    border-bottom: 1px solid lightslategray;
+    margin: 0 -16px;
+}
