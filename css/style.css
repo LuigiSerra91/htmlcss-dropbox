@@ -84,6 +84,10 @@ img{
     width: calc(100% / 12 * 4);
 }
 
+.col_8{
+    width: calc(67% / 12 *8);
+}
+
 .col_5{
     width: calc(70% /12 * 4);
 }
@@ -173,7 +177,7 @@ h2{
     margin: 0 -16px;
 }
 
-.input_radio{
+.selection{
     margin-top: 35px;
 }
 
@@ -184,9 +188,38 @@ h2{
 .enterprise{
     display: flex;
     justify-content: space-between;
+
+    h3{
+        margin-top: 10px;
+    }
+    
+    h4{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .btn_blue{
+        margin-top: 10px;
+    }
+
     
 }
 
 .icon_user{
     padding-bottom: 5px;
+}
+
+.section_partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+    p, h3, a{
+        margin-bottom: 15px;
+    }
+
+    h3{
+        margin-top: 30px;
+    }
 }
