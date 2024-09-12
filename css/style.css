@@ -105,6 +105,11 @@ img{
 }
 
 
+.col_footer{
+    width: 170px;
+    height: 350;
+}
+
 
 .row{
     display: flex;
@@ -319,4 +324,86 @@ h2{
   img{
     margin-bottom: 50px;
   }
+}
+
+
+.section_agency{
+    background-color: var(--drop-stc1_main);
+    height: 250px;
+    margin-top: -26.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h2{
+        color: rgb(113, 8, 113);
+        padding-right: 150px;
+    }
+
+}
+
+.section_questions{
+    display: flex;
+     padding-left: 450px;
+    justify-content: center;
+    line-height: 50px;
+    flex-direction: column;
+    height: 700px;
+
+    h4{
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        padding-bottom: 20px;
+    }
+
+    
+}
+
+.back{
+    display: none;
+}
+
+.back:hover{
+    display: inline-block;
+}
+
+.top:hover{
+    display: none;
+}
+
+.app_footer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    background-color: black;
+    margin: auto;
+    
+    
+
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+
+    h3{
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
