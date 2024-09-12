@@ -88,7 +88,7 @@ img{
     width: calc(70% /12 * 4);
 }
 .col_12{
-    width: 70%;
+    width: 74%;
 }
 
 
@@ -147,7 +147,7 @@ h2{
     
     .col_12{
         border: 1px solid lightslategray;
-        margin top:20px;
+        margin:30px;
     }
 
     .row-col{
@@ -179,4 +179,14 @@ h2{
 
 .checkbox{
     padding-left: 190px;
+}
+
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon_user{
+    padding-bottom: 5px;
 }
