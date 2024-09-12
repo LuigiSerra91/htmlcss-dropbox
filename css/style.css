@@ -33,6 +33,7 @@ img{
 
     a{
         padding-left: 25px;
+        text-decoration: none;
     }
 
     .logo{
@@ -46,6 +47,7 @@ img{
     
     a{
         padding-right:25px ;
+        text-decoration: none;
 
     }
 
@@ -108,6 +110,8 @@ img{
 .col_footer{
     width: 170px;
     height: 350;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -135,6 +139,23 @@ img{
      
 
      
+}
+
+.btn_blue{
+    padding: 7px;
+    background-color: var(--drop-blue_btn);
+    color: white;
+    margin-right: 15px;
+}
+
+.btn_light{
+        padding: 7px;
+        border: 1px solid lightgray;
+}
+
+.btn_white{
+    background-color: white;
+    padding: 5px 20px;
 }
 
 h1{
@@ -216,6 +237,10 @@ h2{
 
     .btn_blue{
         margin-top: 10px;
+    }
+
+    a{
+        margin: 15px;
     }
 
     
@@ -392,8 +417,8 @@ h2{
 .d-flex{
     display: flex;
     justify-content: center;
-    line-height: 30px;
-    flex-wrap: wrap;
+    line-height: 40px;
+    
     align-items: center;
     margin: auto;
 
