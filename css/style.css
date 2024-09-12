@@ -88,6 +88,10 @@ img{
     width: calc(67% / 12 *8);
 }
 
+.col_6{
+
+    width: calc(80% /  12 *4);
+}
 .col_5{
     width: calc(70% /12 * 4);
 }
@@ -222,4 +226,12 @@ h2{
     h3{
         margin-top: 30px;
     }
+}
+
+.dropox_business{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
 }
