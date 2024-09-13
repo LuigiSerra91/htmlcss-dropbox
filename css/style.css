@@ -5,10 +5,12 @@
     box-sizing: border-box;
 }
 
-
+body{
+    min-width: 1440px;
+}
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 :root{
@@ -71,22 +73,21 @@ img{
     
 }
 
-.container_logo{
-    width: 100%;
-    margin: auto;
-}
+
 
 .container_sm{
     padding-top: 80px;
-    width: 80%;
+    width: 70%;
     margin: auto;
     flex-wrap: wrap;
 }
 
 .container_logo_agency{
     display: flex;
-    
+    width: 100%;
     flex-wrap: wrap;
+    
+    
     
 }
 
@@ -147,7 +148,7 @@ img{
 
     margin-bottom: -65px;
     
-     
+    
 
      
 }
@@ -260,7 +261,7 @@ h2{
 
 .section_questions{
     display: flex;
-     padding-left: 450px;
+     padding-left: 200px;
     justify-content: center;
     line-height: 50px;
     flex-direction: column;
@@ -338,7 +339,7 @@ h2{
 
     
 .title_agency{
-    padding-left: 150px;
+    padding-left: 420px;
     padding-top: 100px;
     padding-bottom: 50px;
 
@@ -350,9 +351,14 @@ h2{
 .square4{
     display: flex;
     flex-wrap: wrap;
-   width: 240px;
-   height: 240px;
+   width: calc(100% / 12 * 4);
+   height: 260px;
+   width: 260px;
    
+   img{
+    padding: 25px 25px;
+
+   }
    
 }
 
@@ -394,12 +400,22 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px 10px;
+    
+}
+
+.square_right{
+    margin-left: 72px;
+}
+.square_left{
+    margin-right:72px ;
 }
 
 
-
 .square_big{
-  width: 200px;
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+
   margin-top: 20px;
 
   img{
