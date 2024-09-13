@@ -164,6 +164,13 @@ img{
         padding: 7px;
         border: 1px solid lightgray;
 }
+.btn_blue:hover{
+
+    opacity: 0.2;
+}
+.btn_white:hover{
+     opacity: 0.2;
+}
 
 .btn_white{
     background-color: white;
@@ -403,17 +410,8 @@ h2{
 
 
 
-.back{
-    display: none;
-}
 
-.back:hover{
-    display: inline-block;
-}
 
-.top:hover{
-    display: none;
-}
 
 .app_footer{
     display: flex;
