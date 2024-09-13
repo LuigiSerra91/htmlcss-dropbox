@@ -70,7 +70,7 @@ img{
 
 .container{
     background-color: var(--drop-stc1_main);
-    
+    margin-bottom: 50px;
 }
 
 
@@ -135,18 +135,21 @@ img{
 
 
 .information{
+    
      padding-left: 330px;
    p, a, i{
-    margin: 20px;
+      margin: 20px;
+      
    }
 
+  
 
 }
 
 
 .img_jumbo{
 
-    margin-bottom: -65px;
+    height: 250px;
     
     
 
@@ -405,9 +408,11 @@ h2{
 
 .square_right{
     margin-left: 72px;
+    
 }
 .square_left{
     margin-right:72px ;
+    
 }
 
 
