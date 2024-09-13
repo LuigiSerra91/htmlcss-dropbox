@@ -82,12 +82,14 @@ img{
     
 }
 
-.container_logo_agency{
+
+.box_square{
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container_logo_agency{
     
-    
+    width: 100%
     
 }
 
@@ -414,8 +416,8 @@ h2{
     flex-wrap: wrap;
 }
 .square_left{
-    margin-right:72px ;
-    display: flex;
+margin-right: 72px;
+display: flex;
 flex-wrap: wrap
 }
 
