@@ -482,5 +482,11 @@ h2{
 }
 
 
+@media screen and (max-width: 321px){
+    .query_iphone4{
+           width: 100%;
+    }
+}
+
 
 
