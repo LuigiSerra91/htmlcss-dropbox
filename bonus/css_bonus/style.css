@@ -408,13 +408,11 @@ h2{
 
 .square_right{
     margin-left: 72px;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 .square_left{
     margin-right:72px ;
-    display: flex;
-flex-wrap: wrap
+    
 }
 
 
