@@ -115,7 +115,7 @@ img{
     width: calc(70% /12 * 4);
 }
 .col_12{
-    width: 74%;
+    width: 74.5%;
 }
 
 
@@ -463,3 +463,24 @@ h2{
         color: white;
     }
 }
+
+@media screen and (max-width: 1785px){
+    .query_information{
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 1900px){
+    .query_logo{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+    }
+}
+
+
+
+
