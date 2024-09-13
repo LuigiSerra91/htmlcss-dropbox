@@ -77,9 +77,9 @@ img{
 
 .container_sm{
     padding-top: 80px;
-    width: 70%;
+    width: 80%;
     margin: auto;
-    flex-wrap: wrap;
+    
 }
 
 .container_logo_agency{
@@ -112,10 +112,10 @@ img{
     width: calc(80% /  12 *4);
 }
 .col_5{
-    width: calc(70% /12 * 4);
+    width: calc(100% /12 * 3);
 }
 .col_12{
-    width: 74%;
+    width:79%;
 }
 
 
@@ -222,6 +222,8 @@ h2{
     padding-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
+}
+   
    
     
     .col_12{
@@ -244,12 +246,12 @@ h2{
     hr{
         margin-right: 350px;
     }
-}
+
 
 .section_agency{
     background-color: var(--drop-stc1_main);
     height: 250px;
-    margin-top: -26.5px;
+    margin-top: -26px;
     display: flex;
     align-items: center;
     justify-content: center;
