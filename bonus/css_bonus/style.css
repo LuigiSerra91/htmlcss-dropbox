@@ -115,7 +115,7 @@ img{
     width: calc(70% /12 * 4);
 }
 .col_12{
-    width: 74.5%;
+    width: 74.5%
 }
 
 
@@ -473,20 +473,64 @@ h2{
 
 
 @media screen and (max-width: 1900px){
-    .query_logo{
-          width: 100%;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
+    .query_square{
+         width: 600px;
+         
+       
+    
     }
+
+}
+
+@media screen and (max-width: 1767px){
+    .query_square{
+         width: 550px;
+         
+         
+       
+
+         .query_flex{
+            display: flex;
+            flex-wrap: wrap;
+         }
+
+         
+       
+    
+    }
+
 }
 
 
-@media screen and (max-width: 321px){
-    .query_iphone4{
-           width: 100%;
-    }
+
+
+@media screen and (max-width: 320px){
+
+.query_iphone4{
+    width: 87%;
 }
 
+.query_flex{
+   width: 30%;
+  justify-content: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
 
+.container_flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.query_square{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.query_squarebig{
+    height: 100px;
+}
+}
